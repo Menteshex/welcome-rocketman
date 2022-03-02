@@ -10,29 +10,36 @@
     <title>Personal Information</title>
 </head>
 
-<body class="info">
+<body>
 
-    <section class="">
+    <div class="container">
         <div>
             <h1 class="lefttitle">Hey, Rocketeer, What are your coordinates?</h1>
         </div>
 
         <div class="group1">
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <input type="text" placeholder="E mail">
-            <input type="text" placeholder="+995 5____">
+            <input class="input1" type="text" id="firstName" placeholder="First Name">
+            <input class="input2" type="text" id="lastName" placeholder="Last Name">
+            <input class="input3" type="text" id="email" placeholder="E Mail">
+            <input class="input4" type="text" id="phone" placeholder="+995 5__ __ __ __">
+
+            <div class="pagination">
+                <a href="" class="previous"><img src="images/Previous.svg" alt=""></a>
+                <img class="ellipse1" src="images/Ellipse 1.svg" alt="">
+                <img class="ellipse2" src="images/Ellipse 1.svg" alt="">
+                <img class="ellipse3" src="images/Ellipse 1.svg" alt="">
+                <img class="ellipse4" src="images/Ellipse 1.svg" alt="">
+                <img class="ellipse5" src="images/Ellipse 1.svg" alt="">
+                <a href="" class="next"><img src="images/Next.svg" alt=""></a>
+            </div>
         </div>
+    </div>
 
-        <div class="pagination">
-
-        </div>
-    </section>
-
-    <section class="questinarire">
+    <div class="right-half">
         <div>
             <h1 class="righttitle">Redberry Origins</h1>
         </div>
+
         <div class="description">
             <p>
                 You watch “What? Where? When?” Yeah. Our founders used to play it. That’s where they got a question
@@ -43,7 +50,9 @@
                 Redberry 😇
             </p>
         </div>
-    </section>
+    </div>
+
+    <script src="main.js"></script>
 
 </body>
 

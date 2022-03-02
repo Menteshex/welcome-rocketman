@@ -3,7 +3,6 @@
 /* === LANDING PAGE === */
 
 /* Langing */
-html,
 .landing {
     position: relative;
     width: 1920px;
@@ -16,7 +15,6 @@ html,
 }
 
 /* stars */
-.landing,
 .stars {
     position: absolute;
     width: 1920px;
@@ -31,8 +29,8 @@ html,
     position: absolute;
     width: 1090px;
     height: 212px;
-    left: 434px;
-    top: 175px;
+    left: 484px;
+    top: 100px;
     font-family: Rowdies;
     font-style: normal;
     font-weight: normal;
@@ -53,6 +51,7 @@ html,
     height: 79px;
     left: 754px;
     top: 492px;
+
     mix-blend-mode: normal;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
@@ -65,16 +64,11 @@ html,
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
+    line-height: 75px;
     text-align: center;
     text-decoration: none;
+    
     color: #FFFFFF;
-}
-
-.btn a {
-    display: block;
 }
 
 /* Submitted Applications */
@@ -82,8 +76,8 @@ html,
     position: absolute;
     width: 338px;
     height: 66px;
-    left: 795px;
-    top: 589px;
+    left: 810px;
+    top: 593px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -101,35 +95,18 @@ html,
     position: absolute;
     width: 439.92px;
     height: 372.45px;
-    left: 661px;
+    left: 695px;
     top: 639.88px;
     background: url();
-    transform: rotate(3.28deg);
+    transform: rotate(2.28deg);
 }
 
 /* === INFO PAGE === */
 
 /* Personal Infrormation */
-.info {
-    position: relative;
-    width: 1920px;
-    height: 1080px;
-    
-    background: #FFFFFF;
-}
 
-/* QuestinarireBG */
-.questinarire {
-    position: absolute;
-    width: 1007px;
-    height: 1080px;
-    left: 939px;
-    top: 0px;
-    
-    /* Primary BG */
-    background: radial-gradient(50% 50% at 50% 50%, #0C0D0E 0%, #151718 73.44%);
-}
 
+/* left title */
 .lefttitle {
     position: absolute;
     width: 716px;
@@ -148,7 +125,6 @@ html,
     
     /* Redberry Red */
     color: #FE3B1F;
-    
 }
 
 /* Group 1 */
@@ -156,25 +132,173 @@ html,
     position: absolute;
     width: 455px;
     height: 533px;
-    left: 235px;
-    top: 390px;
+    left: 210px;
+    top: 40px;
 }
 
-/* Right Panel 
-.rightpanel {
+/* Input - First Name */
+.input1 {
+    position: absolute;
+    width: 455px;
+    height: 54px;
+    left: 15px;
+    top: 390px;
+
+    background: #FFFFFF;
+    /* Primary Stroke */
+    border: 1px solid #525557;
+    box-sizing: border-box;
+}
+
+.input2 {
+    position: absolute;
+    width: 455px;
+    height: 54px;
+    left: 15px;
+    top: 481px;
+
+    background: #FFFFFF;
+    /* Primary Stroke */
+    border: 1px solid #525557;
+    box-sizing: border-box;
+}
+
+.input3 {
+    position: absolute;
+    width: 455px;
+    height: 54px;
+    left: 15px;
+    top: 570px;
+
+    background: #FFFFFF;
+    /* Primary Stroke */
+    border: 1px solid #525557;
+    box-sizing: border-box;
+}
+
+.input4 {
+    position: absolute;
+    width: 455px;
+    height: 54px;
+    left: 15px;
+    top: 675px;
+
+    background: #FFFFFF;
+    /* Primary Stroke */
+    border: 1px solid #525557;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    padding-left: 40px;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #454545;
+}
+
+/* Previous */
+.previous {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 335px;
+    top: 904px;
+}
+
+/* Ellipse 1 */
+.ellipse1 {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 377px;
+    top: 904px;
+}
+
+/* Ellipse 2 */
+.ellipse2 {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 411px;
+    top: 904px;
+
+    opacity: 0.1;
+}
+
+/* Ellipse 3 */
+.ellipse3 {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 445px;
+    top: 904px;
+
+    opacity: 0.1;
+}
+
+/* Ellipse 4 */
+.ellipse4 {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 479px;
+    top: 904px;
+
+    opacity: 0.1;
+}
+
+/* Ellipse 5 */
+.ellipse5 {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 513px;
+    top: 904px;
+
+    opacity: 0.1;
+}
+
+/* Next */
+.next {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 554px;
+    top: 904px;
+}
+
+.pagination {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: -220px;
+    top: -20px;
+}
+
+/* Right Panel */
+.right-half {
     position: absolute;
     width: 1007px;
     height: 1080px;
     left: 939px;
     top: 0px;
-}*/
+    
+    /* Primary BG */
+    background: radial-gradient(50% 50% at 50% 50%, #0C0D0E 0%, #151718 73.44%); 
+}
 
 /* right title */
 .righttitle {
     position: absolute;
     width: 716px;
     height: 94px;
-    left: 1116px;
+    left: 200px;
     top: 112px;
     
     font-family: Rowdies;
@@ -194,7 +318,7 @@ html,
     position: absolute;
     width: 705px;
     height: 606px;
-    left: 1119px;
+    left: 200px;
     top: 195px;
     
     font-family: Montserrat;
